@@ -60,10 +60,10 @@ set(CMAKE_PREFIX_PATH
 # b/168750039: To workaround absl module not found error on Android build.
 set(absl_DIR "${TFLITE_SOURCE_DIR}/tools/cmake/modules")
 
-option(TFLITE_ENABLE_RUY "Enable experimental RUY integration" OFF)
-option(TFLITE_ENABLE_RESOURCE "Enable experimental support for resources" ON)
-option(TFLITE_ENABLE_NNAPI "Enable NNAPI (Android only)." ON)
-option(TFLITE_ENABLE_MMAP "Enable MMAP (unsupported on Windows)" ON)
+option(TFLITE_ENABLE_RUY "Enable experimental RUY integration" ON)
+option(TFLITE_ENABLE_RESOURCE "Enable experimental support for resources" OFF)
+option(TFLITE_ENABLE_NNAPI "Enable NNAPI (Android only)." OFF)
+option(TFLITE_ENABLE_MMAP "Enable MMAP (unsupported on Windows)" OFF)
 option(TFLITE_ENABLE_GPU "Enable GPU" OFF)
 # This must be enabled when converting from TF models with SELECT_TF_OPS
 # enabled.
