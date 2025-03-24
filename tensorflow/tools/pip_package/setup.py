@@ -77,7 +77,7 @@ if '--project_name' in sys.argv:
 REQUIRED_PACKAGES = [
     'absl-py ~= 0.10',
     'astunparse ~= 1.6.3',
-    'flatbuffers ~= 1.12.0',
+    'flatbuffers ~= rrb-v2',
     'google_pasta ~= 0.2',
     'h5py ~= 3.1.0',
     'keras_preprocessing ~= 1.1.2',

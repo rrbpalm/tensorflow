@@ -124,7 +124,7 @@ function install_ubuntu_16_pip_deps {
   # Now, install the deps, as listed in setup.py
   "${PIP_CMD}" install --user 'absl-py ~= 0.10'
   "${PIP_CMD}" install --user 'astunparse ~= 1.6.3'
-  "${PIP_CMD}" install --user 'flatbuffers ~= 1.12.0'
+  "${PIP_CMD}" install --user 'flatbuffers ~= rrb-v2'
   "${PIP_CMD}" install --user 'google_pasta ~= 0.2'
   "${PIP_CMD}" install --user 'h5py ~= 3.1.0'
   "${PIP_CMD}" install --user 'keras_preprocessing ~= 1.1.2'
@@ -186,7 +186,7 @@ function install_macos_pip_deps {
   # Now, install the deps, as listed in setup.py
   ${PIP_CMD} install $USER_FLAG 'absl-py ~= 0.10'
   ${PIP_CMD} install $USER_FLAG 'astunparse ~= 1.6.3'
-  ${PIP_CMD} install $USER_FLAG 'flatbuffers ~= 1.12.0'
+  ${PIP_CMD} install $USER_FLAG 'flatbuffers ~= rrb-v2'
   ${PIP_CMD} install $USER_FLAG 'google_pasta ~= 0.2'
   ${PIP_CMD} install $USER_FLAG 'h5py ~= 3.1.0'
   ${PIP_CMD} install $USER_FLAG 'keras_preprocessing ~= 1.1.2'
